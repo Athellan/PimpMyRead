@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF2E000028E1AABD00BA300D /* hey_comic in Resources */ = {isa = PBXBuildFile; fileRef = AF2EFFFF28E1AABD00BA300D /* hey_comic */; };
+		AF2E000828E339BC00BA300D /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E000728E339BB00BA300D /* LogIn.swift */; };
+		AF2E000A28E339C800BA300D /* subscribePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E000928E339C800BA300D /* subscribePage.swift */; };
+		AF2EFFF428E18A7E00BA300D /* Homemade Sausage.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF2EFFF328E18A7E00BA300D /* Homemade Sausage.ttf */; };
+		AF2EFFF928E19FF900BA300D /* BookProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2EFFF828E19FF900BA300D /* BookProvider.swift */; };
+		AF2EFFFE28E1A80000BA300D /* Hey Comic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF2EFFFD28E1A80000BA300D /* Hey Comic.ttf */; };
+		AF30F90928E5BE47003C91E6 /* NavigationUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30F90828E5BE47003C91E6 /* NavigationUI.swift */; };
+		AF5C991E28E479F200D1CE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5C991D28E479F200D1CE98 /* Assets.xcassets */; };
+		AFA0F2C328DDD78F00A33AF8 /* BooksDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA0F2C228DDD78F00A33AF8 /* BooksDetailsView.swift */; };
+		AFA0F2C528DDD79100A33AF8 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA0F2C428DDD79100A33AF8 /* Books.swift */; };
+		AFFE72BB28DD966B005EF702 /* Pimp_My_Read_V1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFE72BA28DD966B005EF702 /* Pimp_My_Read_V1App.swift */; };
+		AFFE72C228DD966D005EF702 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFE72C128DD966D005EF702 /* Preview Assets.xcassets */; };
+		AFFE72D128DD9751005EF702 /* Landing_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFE72D028DD9750005EF702 /* Landing_1.swift */; };
+		AFFE72D328DD9756005EF702 /* Landing_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFE72D228DD9756005EF702 /* Landing_2.swift */; };
+		AFFE72D528DD9759005EF702 /* Landing_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFE72D428DD9759005EF702 /* Landing_3.swift */; };
+		AFFE72D728DD975F005EF702 /* Landing_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFE72D628DD975F005EF702 /* Landing_4.swift */; };
+		AFFE72D928DD978D005EF702 /* HostingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFE72D828DD978D005EF702 /* HostingTabBar.swift */; };
+		AFFE72DB28DD9791005EF702 /* userProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFE72DA28DD9791005EF702 /* userProfile.swift */; };
+		AFFE72DF28DD97FD005EF702 /* MatchingCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFE72DE28DD97FD005EF702 /* MatchingCards.swift */; };
+		AFFE72E128DD9801005EF702 /* MatchingCards2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFE72E028DD9801005EF702 /* MatchingCards2.swift */; };
+		AFFE72E328DD9805005EF702 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFE72E228DD9805005EF702 /* CardView.swift */; };
+		AFFE72E628DD9903005EF702 /* MatchingLobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFE72E528DD9903005EF702 /* MatchingLobby.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF2E000728E339BB00BA300D /* LogIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		AF2E000928E339C800BA300D /* subscribePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subscribePage.swift; sourceTree = "<group>"; };
+		AF2EFFF328E18A7E00BA300D /* Homemade Sausage.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Homemade Sausage.ttf"; sourceTree = "<group>"; };
+		AF2EFFF528E18AEE00BA300D /* Pimp-My-Read-V1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pimp-My-Read-V1-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AF2EFFF828E19FF900BA300D /* BookProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookProvider.swift; sourceTree = "<group>"; };
+		AF2EFFFD28E1A80000BA300D /* Hey Comic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Hey Comic.ttf"; path = "hey_comic/Hey Comic.ttf"; sourceTree = "<group>"; };
+		AF2EFFFF28E1AABD00BA300D /* hey_comic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hey_comic; sourceTree = "<group>"; };
+		AF30F90828E5BE47003C91E6 /* NavigationUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationUI.swift; sourceTree = "<group>"; };
+		AF5C991D28E479F200D1CE98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFA0F2C228DDD78F00A33AF8 /* BooksDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksDetailsView.swift; sourceTree = "<group>"; };
+		AFA0F2C428DDD79100A33AF8 /* Books.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		AFFE72B728DD966B005EF702 /* Pimp My Read V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pimp My Read V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFE72BA28DD966B005EF702 /* Pimp_My_Read_V1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pimp_My_Read_V1App.swift; sourceTree = "<group>"; };
+		AFFE72C128DD966D005EF702 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFFE72D028DD9750005EF702 /* Landing_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landing_1.swift; sourceTree = "<group>"; };
+		AFFE72D228DD9756005EF702 /* Landing_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landing_2.swift; sourceTree = "<group>"; };
+		AFFE72D428DD9759005EF702 /* Landing_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landing_3.swift; sourceTree = "<group>"; };
+		AFFE72D628DD975F005EF702 /* Landing_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landing_4.swift; sourceTree = "<group>"; };
+		AFFE72D828DD978D005EF702 /* HostingTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingTabBar.swift; sourceTree = "<group>"; };
+		AFFE72DA28DD9791005EF702 /* userProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userProfile.swift; sourceTree = "<group>"; };
+		AFFE72DE28DD97FD005EF702 /* MatchingCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingCards.swift; sourceTree = "<group>"; };
+		AFFE72E028DD9801005EF702 /* MatchingCards2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingCards2.swift; sourceTree = "<group>"; };
+		AFFE72E228DD9805005EF702 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AFFE72E528DD9903005EF702 /* MatchingLobby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingLobby.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFFE72B428DD966B005EF702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFFE72AE28DD966B005EF702 = {
+			isa = PBXGroup;
+			children = (
+				AFFE72B928DD966B005EF702 /* Pimp My Read V1 */,
+				AFFE72B828DD966B005EF702 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFFE72B828DD966B005EF702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFFE72B728DD966B005EF702 /* Pimp My Read V1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFFE72B928DD966B005EF702 /* Pimp My Read V1 */ = {
+			isa = PBXGroup;
+			children = (
+				AF2EFFF528E18AEE00BA300D /* Pimp-My-Read-V1-Info.plist */,
+				AFFE72BA28DD966B005EF702 /* Pimp_My_Read_V1App.swift */,
+				AFFE72D028DD9750005EF702 /* Landing_1.swift */,
+				AFFE72D828DD978D005EF702 /* HostingTabBar.swift */,
+				AF2E000928E339C800BA300D /* subscribePage.swift */,
+				AF2E000728E339BB00BA300D /* LogIn.swift */,
+				AFFE72D228DD9756005EF702 /* Landing_2.swift */,
+				AFFE72D428DD9759005EF702 /* Landing_3.swift */,
+				AFFE72D628DD975F005EF702 /* Landing_4.swift */,
+				AFFE72DA28DD9791005EF702 /* userProfile.swift */,
+				AFFE72E528DD9903005EF702 /* MatchingLobby.swift */,
+				AFFE72DE28DD97FD005EF702 /* MatchingCards.swift */,
+				AFFE72E028DD9801005EF702 /* MatchingCards2.swift */,
+				AFFE72E228DD9805005EF702 /* CardView.swift */,
+				AFA0F2C428DDD79100A33AF8 /* Books.swift */,
+				AF30F90828E5BE47003C91E6 /* NavigationUI.swift */,
+				AF5C991D28E479F200D1CE98 /* Assets.xcassets */,
+				AFA0F2C228DDD78F00A33AF8 /* BooksDetailsView.swift */,
+				AF2EFFF828E19FF900BA300D /* BookProvider.swift */,
+				AF2EFFF328E18A7E00BA300D /* Homemade Sausage.ttf */,
+				AF2EFFFD28E1A80000BA300D /* Hey Comic.ttf */,
+				AF2EFFFF28E1AABD00BA300D /* hey_comic */,
+				AFFE72C028DD966D005EF702 /* Preview Content */,
+			);
+			path = "Pimp My Read V1";
+			sourceTree = "<group>";
+		};
+		AFFE72C028DD966D005EF702 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFFE72C128DD966D005EF702 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFFE72B628DD966B005EF702 /* Pimp My Read V1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFE72C528DD966D005EF702 /* Build configuration list for PBXNativeTarget "Pimp My Read V1" */;
+			buildPhases = (
+				AFFE72B328DD966B005EF702 /* Sources */,
+				AFFE72B428DD966B005EF702 /* Frameworks */,
+				AFFE72B528DD966B005EF702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pimp My Read V1";
+			productName = "Pimp My Read V1";
+			productReference = AFFE72B728DD966B005EF702 /* Pimp My Read V1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFFE72AF28DD966B005EF702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AFFE72B628DD966B005EF702 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AFFE72B228DD966B005EF702 /* Build configuration list for PBXProject "Pimp My Read V1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFFE72AE28DD966B005EF702;
+			productRefGroup = AFFE72B828DD966B005EF702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFFE72B628DD966B005EF702 /* Pimp My Read V1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFFE72B528DD966B005EF702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFE72C228DD966D005EF702 /* Preview Assets.xcassets in Resources */,
+				AF2EFFF428E18A7E00BA300D /* Homemade Sausage.ttf in Resources */,
+				AF2EFFFE28E1A80000BA300D /* Hey Comic.ttf in Resources */,
+				AF2E000028E1AABD00BA300D /* hey_comic in Resources */,
+				AF5C991E28E479F200D1CE98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFFE72B328DD966B005EF702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2E000A28E339C800BA300D /* subscribePage.swift in Sources */,
+				AFFE72D728DD975F005EF702 /* Landing_4.swift in Sources */,
+				AFFE72E128DD9801005EF702 /* MatchingCards2.swift in Sources */,
+				AFFE72D528DD9759005EF702 /* Landing_3.swift in Sources */,
+				AFFE72D328DD9756005EF702 /* Landing_2.swift in Sources */,
+				AFFE72DF28DD97FD005EF702 /* MatchingCards.swift in Sources */,
+				AFFE72E628DD9903005EF702 /* MatchingLobby.swift in Sources */,
+				AFFE72BB28DD966B005EF702 /* Pimp_My_Read_V1App.swift in Sources */,
+				AFFE72DB28DD9791005EF702 /* userProfile.swift in Sources */,
+				AFFE72D128DD9751005EF702 /* Landing_1.swift in Sources */,
+				AFA0F2C528DDD79100A33AF8 /* Books.swift in Sources */,
+				AF2EFFF928E19FF900BA300D /* BookProvider.swift in Sources */,
+				AF30F90928E5BE47003C91E6 /* NavigationUI.swift in Sources */,
+				AFFE72E328DD9805005EF702 /* CardView.swift in Sources */,
+				AFA0F2C328DDD78F00A33AF8 /* BooksDetailsView.swift in Sources */,
+				AFFE72D928DD978D005EF702 /* HostingTabBar.swift in Sources */,
+				AF2E000828E339BC00BA300D /* LogIn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFFE72C328DD966D005EF702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFFE72C428DD966D005EF702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFFE72C628DD966D005EF702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pimp My Read V1/Preview Content\"";
+				DEVELOPMENT_TEAM = 35FWUG94V8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pimp-My-Read-V1-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeanbaptiste.Pimp-My-Read-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFFE72C728DD966D005EF702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pimp My Read V1/Preview Content\"";
+				DEVELOPMENT_TEAM = 35FWUG94V8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pimp-My-Read-V1-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeanbaptiste.Pimp-My-Read-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFFE72B228DD966B005EF702 /* Build configuration list for PBXProject "Pimp My Read V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFE72C328DD966D005EF702 /* Debug */,
+				AFFE72C428DD966D005EF702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFE72C528DD966D005EF702 /* Build configuration list for PBXNativeTarget "Pimp My Read V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFE72C628DD966D005EF702 /* Debug */,
+				AFFE72C728DD966D005EF702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFFE72AF28DD966B005EF702 /* Project object */;
+}
